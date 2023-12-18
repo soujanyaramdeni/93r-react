@@ -32,7 +32,7 @@ fetch('https://dummyjson.com/auth/login', {
     return(
         <>
         <h2>Uncontrolled component example</h2>
-        <form onSubmit={handleSubmit}>
+<form onSubmit={handleSubmit}>
   <div className="form-group">
     <label htmlFor="exampleInputEmail1">Email address</label>
     <input
